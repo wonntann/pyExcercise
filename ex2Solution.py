@@ -1,6 +1,6 @@
-class py_solution:
+class Py_solution:
     def reverse_words(self, s):
         return ' '.join(reversed(s.split()))
 
 
-print(py_solution().reverse_words('hello .py'))
+print(Py_solution().reverse_words('hello world'))
